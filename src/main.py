@@ -8,9 +8,9 @@ def getResponseOpenAI():
         api_key=key
     )
 
-    json_str = read_json_as_string("../3_OpenDroneMap/images.json")
+    json_str = read_json_as_string("../3_OpenDroneMap/odm_georeferencing/odm_georeferenced_model.boundary.json")
     # print(json_str)
-    text_str = "Find these metadata (contributor, coverage, creator, date, description, format, identifier, language, publisher, relation, rights, source, subject, title, type) in this json and response in json, if the element data is missing, then fill it randomly: " + json_str 
+    text_str = "Is this one contain of soil sample laboratory result " + json_str 
     chat_completion = client.chat.completions.create(
         messages=[
             {
