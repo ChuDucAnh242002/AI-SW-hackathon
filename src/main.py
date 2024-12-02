@@ -10,7 +10,7 @@ def getResponseOpenAI():
 
     json_str = read_json_as_string("../3_OpenDroneMap/odm_georeferencing/odm_georeferenced_model.boundary.json")
     # print(json_str)
-    text_str = "Is this one contain of soil sample laboratory result " + json_str 
+    text_str = "find this metadata elements (contributor, coverage, creator, date, description, format, identifier, language, publisher, relation, rights, source, subject, title, type) in this json file, fill the data if there isn't an element in json. Result in json form" + json_str 
     chat_completion = client.chat.completions.create(
         messages=[
             {

@@ -6,3 +6,6 @@ Step 1: Clone the project by running command: git clone https://github.com/ChuDu
 Step 2: go to Frontend folder by running command: cd Frontend
 Step 3: Install all the node packages by running command: npm install
 Step 4: Run the application by running command: npm start
+
+To use the open AI model, install theses packages:
+pip install openai

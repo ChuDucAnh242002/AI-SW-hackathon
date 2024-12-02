@@ -1,0 +1,18 @@
+1. **Boundary Information**:
+   - **Area**: 3503.072758 square units
+   - **Average Point Density**: 0.6701190077 points per square unit
+   - **Average Point Spacing**: 0.4723316984 units
+   - **Boundary Coordinates**: Described in WKT format (Well-Known Text) encasing a multipolygon shape, and also provided in GeoJSON format.
+   - **Density**: 4.482350521 (possibly in some units relevant to the context)
+   - **Edge Length**: 1 unit
+   - **Estimated Edge**: 1.732050808 units
+   - **Hex Offsets**: Provided as a set of coordinates.
+   - **Sample Size**: 5000 (could refer to the number of points or data collected)
+   - **Threshold**: 0 (might relate to a filtering condition)
+
+2. **File Information**:
+   - **File Size**: 534297 bytes
+   - **Filename**: The path provided seems to point to a georeferenced model in LAS format (which is commonly used for LiDAR data).
+   - **Current Date and Time**: "now" timestamp indicating the point in time of the results or log inspection.
+   - **PDAL Version**: 2.4.3, indicating the version of the PDAL software used for processing the data.
+   - **Reader Type**: "readers.las" suggests that the data was read using a LAS file reader.
