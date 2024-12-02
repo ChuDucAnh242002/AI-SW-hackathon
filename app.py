@@ -1,7 +1,8 @@
 import openai
 import json
 
-openai.api_key = "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"
+
+openai.api_key = input("Enter your key: ")
 
 # Load your JSON data
 def load_json_file(file_path):
