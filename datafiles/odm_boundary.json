@@ -1,0 +1,17 @@
+{
+    "contributor": "John Doe",
+    "coverage": "North America",
+    "creator": "Data Generation Team",
+    "date": "2024-03-14",
+    "description": "3D point cloud data from aerial surveys.",
+    "format": "LAS",
+    "identifier": "68c3e962-dfa8-4bb0-8914-275388319c67",
+    "language": "en",
+    "publisher": "GeoData Corp",
+    "relation": "Related to terrain analysis projects.",
+    "rights": "Creative Commons Attribution 4.0 International",
+    "source": "Aerial Surveying",
+    "subject": "Geospatial data",
+    "title": "Georeferenced Model",
+    "type": "Dataset"
+  }
